@@ -4,7 +4,7 @@
 A RESTful API that implements some functionalities that exist in linkedin app.
 
 ## Deployed version
-Live demo: [Linkedin Clone Api] (https://linkedin-clone-api-lue2.onrender.com/)
+Live demo: [Linkedin Clone Api](https://linkedin-clone-api-lue2.onrender.com/)
 
 ## Key features
 * A simple jwt based authentication with refresh token rotation approach: [ register, login ]
@@ -18,7 +18,7 @@ Live demo: [Linkedin Clone Api] (https://linkedin-clone-api-lue2.onrender.com/)
 * Api features: filter, search, sort and pagination on getting some resources.
 * Users can upload files to the cloud (supabase storage): images, videos.
 ##  Api docs
-Check [Linkedin Clone Api Documentation] (https://linkedin-clone-api-lue2.onrender.com/api-docs) for more informations.
+Check [Linkedin Clone Api Documentation](https://linkedin-clone-api-lue2.onrender.com/api-docs) for more informations.
 
 ## Technologies and libraries used
 * Nodejs
