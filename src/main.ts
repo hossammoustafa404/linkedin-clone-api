@@ -12,7 +12,7 @@ async function bootstrap() {
   const config = app.get(ConfigService);
 
   app.use(cookieParser());
-  app.enableCors();
+  app.enableCors({ origin: (origin, cb) => cb(null, true) });
   app.use(helmet());
 
   app.useGlobalPipes(
@@ -32,7 +32,7 @@ async function bootstrap() {
 
   const swaggerDocument = SwaggerModule.createDocument(app, swaggerConfig);
 
-  SwaggerModule.setup('api', app, swaggerDocument);
+  SwaggerModule.setup('api-docs', app, swaggerDocument);
 
   const port = config.get('app.port');
 
