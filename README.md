@@ -7,7 +7,7 @@ A RESTful API that implements some functionalities that exist in linkedin app.
 Live demo: [Linkedin Clone Api](https://linkedin-clone-api-lue2.onrender.com/)
 
 ## Key features
-* A simple jwt based authentication with refresh token rotation approach: [ register, login ]
+* A simple jwt based authentication: [ register, login ]
 * A role based access control (RBAC): [ super admin, user ]
 *  Every user has a single profile.
 * Users can add skills, educations and experiences to their profiles.
